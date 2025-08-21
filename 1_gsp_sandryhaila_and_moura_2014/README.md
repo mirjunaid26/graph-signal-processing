@@ -1,4 +1,4 @@
-# Graph Signal Processing - Sandryhaila & Moura 2014 Reproduction
+# Graph Signal Processing - Sandryhaila & Moura 2014
 
 This repository contains a comprehensive Python implementation reproducing the key concepts from the seminal paper:
 

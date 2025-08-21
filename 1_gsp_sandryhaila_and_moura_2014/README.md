@@ -1,4 +1,6 @@
-# Graph Signal Processing - Sandryhaila & Moura 2014 Reproduction
+# Big Data Analysis with Signal Processing on Graphs: Representation and Processing of Massive Data Sets with Irregular Structure by A. Sandryhaila and J. M. F. Moura (IEEE Signal Processing Magazine, 2014)
+
+
 
 This repository contains a comprehensive Python implementation reproducing the key concepts from the seminal paper:
 

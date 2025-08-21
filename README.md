@@ -1,4 +1,4 @@
-# Graph Signal Processing: Paper Reproductions and Implementations
+# Graph Signal Processing: From Theory to Practice
 
 A comprehensive repository for analyzing, reproducing, and improving seminal papers in **Graph Signal Processing (GSP)**. This collection provides modern Python implementations of foundational GSP concepts with experimental validation and practical applications.
 

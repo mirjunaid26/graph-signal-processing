@@ -4,7 +4,7 @@ This repository contains a comprehensive Python implementation reproducing the k
 
 **"Big Data Analysis with Signal Processing on Graphs: Representation and Processing of Massive Data Sets with Irregular Structure"** by A. Sandryhaila and J. M. F. Moura (IEEE Signal Processing Magazine, 2014)
 
-## 🎯 Overview
+## Overview
 
 This implementation demonstrates the fundamental concepts of Graph Signal Processing (GSP) using the PyGSP library, including:
 
@@ -30,7 +30,7 @@ graph_ml/
     └── PubMed/                   # Citation network data
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -77,7 +77,7 @@ python demo_notebook.py
 
 This will run all demonstrations and generate visualization files.
 
-## 🔬 Key Features
+## Key Features
 
 ### 1. Graph Signal Processing Core (`graph_signal_processing.py`)
 
@@ -114,7 +114,7 @@ Five comprehensive demos showcasing:
 4. **Graph Comparison** - Spectral properties of different structures
 5. **Big Data Processing** - Scalability and parallel processing
 
-## 📊 Experimental Results
+## Experimental Results
 
 The implementation reproduces key findings from the original paper:
 
@@ -138,7 +138,7 @@ The implementation reproduces key findings from the original paper:
 - **Vectorized GFT:** Processes multiple signals simultaneously
 - **Memory efficiency:** Shared eigendecomposition across signals
 
-## 🔧 Technical Implementation
+## Technical Implementation
 
 ### Graph Fourier Transform
 ```python
@@ -169,7 +169,7 @@ residual = signal - smooth_signal
 anomalies = np.abs(residual) > threshold * np.std(residual)
 ```
 
-## 📈 Performance Benchmarks
+## Performance Benchmarks
 
 | Graph Size | Fourier Basis (s) | Filtering (s) | Memory (MB) |
 |------------|-------------------|---------------|-------------|
@@ -178,7 +178,7 @@ anomalies = np.abs(residual) > threshold * np.std(residual)
 | 1000       | 8.5              | 0.15          | 8.0         |
 | 2000       | 45.2             | 0.45          | 32.0        |
 
-## 🎨 Visualization Examples
+## Visualization Examples
 
 The implementation generates several types of visualizations:
 
@@ -203,7 +203,7 @@ The implementation generates several types of visualizations:
    - Processing time vs. graph size
    - Parallel processing speedups
 
-## 🔬 Validation Against Original Paper
+## Validation Against Original Paper
 
 Our implementation validates the following key claims from Sandryhaila & Moura 2014:
 
@@ -219,7 +219,7 @@ Our implementation validates the following key claims from Sandryhaila & Moura 2
 
 ✅ **Anomaly detection** works effectively using high-frequency components
 
-## 🚀 Extensions and Future Work
+## Extensions and Future Work
 
 Potential extensions to explore:
 
@@ -230,7 +230,7 @@ Potential extensions to explore:
 - **GPU acceleration** for eigendecomposition
 - **Approximate methods** for real-time processing
 
-## 📚 References
+## References
 
 1. **Primary Paper:**
    Sandryhaila, A., & Moura, J. M. F. (2014). Big data analysis with signal processing on graphs: Representation and processing of massive data sets with irregular structure. *IEEE Signal Processing Magazine*, 31(5), 80-90.
@@ -244,15 +244,15 @@ Potential extensions to explore:
    - NetworkX: Network analysis library
    - SciPy: Scientific computing tools
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📧 Contact
+## Contact
 
 For questions or collaboration opportunities, please open an issue in this repository.
 

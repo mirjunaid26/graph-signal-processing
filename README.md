@@ -2,7 +2,7 @@
 
 A comprehensive repository for analyzing, reproducing, and improving seminal papers in **Graph Signal Processing (GSP)**. This collection provides modern Python implementations of foundational GSP concepts with experimental validation and practical applications.
 
-## 🎯 Repository Overview
+## Repository Overview
 
 This repository systematically reproduces key papers in graph signal processing, providing:
 - **Complete implementations** of core algorithms and concepts
@@ -10,7 +10,7 @@ This repository systematically reproduces key papers in graph signal processing,
 - **Modern Python tools** for research and education
 - **Extensible framework** for future GSP research
 
-## 📚 What is Graph Signal Processing?
+## What is Graph Signal Processing?
 
 **Graph Signal Processing** extends classical signal processing to data defined on irregular graph structures. Unlike traditional signals on regular grids (images, audio), GSP handles signals on:
 
@@ -72,7 +72,7 @@ graph-signal-processing/
     └── comparison_analysis.md
 ```
 
-## 📖 Implemented Papers
+## Implemented Papers
 
 ### ✅ 1. Sandryhaila & Moura (2014)
 **"Big Data Analysis with Signal Processing on Graphs"**
@@ -91,9 +91,9 @@ graph-signal-processing/
 - 10x speedup via parallel processing
 - Validated on graphs up to 1,000+ vertices
 
-[**📂 View Implementation →**](./1_gsp_sandryhaila_and_moura_2014/)
+[**View Implementation →**](./1_gsp_sandryhaila_and_moura_2014/)
 
-## 🚀 Planned Papers
+## Planned Papers
 
 ### 2. Shuman et al. (2013) - "The Emerging Field of Signal Processing on Graphs"
 **Focus:** Theoretical foundations and mathematical framework
@@ -119,7 +119,7 @@ graph-signal-processing/
 - Semi-supervised learning on graphs
 - Node classification tasks
 
-## 🛠️ Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -162,7 +162,7 @@ analysis = gsp.spectral_analysis(signal)
 filtered = gsp.graph_signal_denoising(signal, noise_level=0.1)
 ```
 
-## 📊 Key Features Across Papers
+## Key Features Across Papers
 
 | Paper | Year | GFT | Filtering | ML Integration | Big Data | Applications |
 |-------|------|-----|-----------|----------------|----------|--------------|
@@ -172,7 +172,7 @@ filtered = gsp.graph_signal_denoising(signal, noise_level=0.1)
 | Defferrard et al. | 2016 | ✅ | ✅ | ✅ | ✅ | Spectral CNNs |
 | Kipf & Welling | 2017 | ❌ | ✅ | ✅ | ✅ | GCNs |
 
-## 🔬 Research Methodology
+## Research Methodology
 
 Each paper implementation follows a systematic approach:
 
@@ -196,7 +196,7 @@ Each paper implementation follows a systematic approach:
 - Strengths and limitations assessment
 - Modern applications and extensions
 
-## 🎓 Educational Resources
+## Educational Resources
 
 ### Learning Path
 1. **Start with Sandryhaila & Moura (2014)** - Core concepts and practical implementation
@@ -212,7 +212,7 @@ Each paper directory includes:
 - **Visualization examples** for intuitive understanding
 - **Performance benchmarks** for practical insights
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Ways to contribute:
 
@@ -234,7 +234,7 @@ Contributions are welcome! Ways to contribute:
 - Provide clear commit messages and pull request descriptions
 - Ensure reproducible results with fixed random seeds
 
-## 📈 Performance Benchmarks
+## Performance Benchmarks
 
 ### Computational Complexity
 | Operation | Complexity | Bottleneck | Scalability |
@@ -248,7 +248,7 @@ Contributions are welcome! Ways to contribute:
 - **Sparse graphs:** O(E) edge list storage (E = number of edges)
 - **Eigendecomposition:** O(N²) eigenvector storage
 
-## 🔗 Related Resources
+## Related Resources
 
 ### Software Libraries
 - **[PyGSP](https://pygsp.readthedocs.io/)** - Graph Signal Processing in Python
@@ -267,19 +267,19 @@ Contributions are welcome! Ways to contribute:
 - **Courses:** Stanford CS224W, MIT 6.034
 - **Conferences:** ICASSP, NeurIPS, ICLR, ICML
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📞 Contact
+## Contact
 
 For questions, suggestions, or collaboration opportunities:
 - **Issues:** Use GitHub issues for bug reports and feature requests
 - **Discussions:** Use GitHub discussions for general questions
-- **Email:** [Your contact information]
+- **Email:** mir.jnd@gmail.com
 
 ---
 
-**🎯 Mission:** Democratize access to graph signal processing through comprehensive, reproducible implementations of seminal papers, fostering research and education in this rapidly growing field.
+**Mission:** Democratize access to graph signal processing through comprehensive, reproducible implementations of seminal papers, fostering research and education in this rapidly growing field.
 
-**⭐ Star this repository** if you find it useful for your research or learning!
+**Star this repository** if you find it useful for your research or learning!
